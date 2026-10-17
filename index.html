@@ -3,9 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Rick and Morty</title>
+    <script src="/index.js" defer></script>
+    <link rel="stylesheet" href="/style.css">
 </head>
 <body>
+
+    <div class="container">
+
+        <h1>Поиск Rick & Morty</h1>
+        <input type="text" class="search-input" placeholder="Введите имя...">
+
+        <div class="button-container">
+        <button class="search-button back">Назад</button>
+        <div class="search-pagination"></div>
+        <button class="search-button next">Вперед</button>
+        </div>
+
+        <div class="search-loader">Загрузка...</div>
+
+        <div class="search-result">
+            <!-- <div class="result-item">
+                <img src="" alt="" class="result-img">
+            </div> -->
+        </div>
+        
+        <div class="search-info"></div>
+        
+    </div>
     
 </body>
 </html>
